@@ -1,0 +1,17 @@
+Username;Password;Firstname;Lastname;Department;Path;Group
+Ehrlicha;W!ndows19;Alexander;Ehrlich;Munich;OU=Marketing,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;Marketing
+Huberm;W!ndows19;Maria;Huber;Munich;OU=Marketing,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;Marketing
+Maierh;W!ndows19;Hans;Maier;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;Sales
+Stioberw;W!ndows19;Werner;Stiober;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;Sales
+Lösigd;W!ndows19;Dieter;Lösig;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;Sales
+Sternm;W!ndows19;Marcus;Stern;London;OU=Sales,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;Sales
+Kapferera;W!ndows19;Andreas;Kapferer;Munich;OU=CManagement,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;CManagement
+Gutk;W!ndows19;Klara;Gut;Munich;OU=CManagement,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;CManagement
+Heynew;W!ndows19;Wilhelm;Heyne;London;OU=Design,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;Design
+Scharnerk;W!ndows19;Klaus;Scharner;London;OU=Design,OU=Intern,OU=Lightbulb,DC=schettn,DC=local;Design
+Morimotor;W!ndows19;Rand;Morimoto;UK;OU=TSales,OU=Extern,OU=Lightbulb,DC=schettn,DC=local;TSales
+Barkerc;W!ndows19;Clive;Barker;UK;OU=TSales,OU=Extern,OU=Lightbulb,DC=schettn,DC=local;TSales
+Abbatea;W!ndows19;Andreas;Abbate;Germany;OU=TSales,OU=Extern,OU=Lightbulb,DC=schettn,DC=local;TSales
+
+
+

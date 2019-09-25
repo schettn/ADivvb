@@ -1,0 +1,9 @@
+name;path
+Lightbulb;DC=nwtk,DC=local
+Intern;OU=Lightbulb,DC=nwtk,DC=local
+Extern;OU=Lightbulb,DC=nwtk,DC=local
+TSales;OU=Extern,OU=Lightbulb,DC=nwtk,DC=local
+Sales;OU=Intern,OU=Lightbulb,DC=nwtk,DC=local
+CManagement;OU=Intern,OU=Lightbulb,DC=nwtk,DC=local
+Marketing;OU=Intern,OU=Lightbulb,DC=nwtk,DC=local
+Design;OU=Intern,OU=Lightbulb,DC=nwtk,DC=local

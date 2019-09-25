@@ -1,0 +1,9 @@
+name;path;members
+CManagement;OU=CManagement,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local
+Design;OU=Design,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local
+Marketing;OU=Marketing,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local
+Sales;OU=Sales,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local
+TSales;OU=TSales,OU=Extern,OU=Lightbulb,DC=nwtk,DC=local
+Extern;OU=Extern,OU=Lightbulb,DC=nwtk,DC=local;TSales
+Intern;OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Sales,Marketing,Design,CManagement
+LUsers;OU=Lightbulb,DC=nwtk,DC=local;Intern,Extern
