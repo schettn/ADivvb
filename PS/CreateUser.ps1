@@ -14,9 +14,12 @@ ForEach ($User in $UserList)
 
         Write-Host -ForegroundColor Yellow "Creating: $Username"
         New-ADUser -Name "$Firstname $Lastname" -SamAccountName $Username -UserPrincipalName "$Username@nwtk.local" -GivenName $Firstname -Surname $Lastname -Enabled $true -ChangePasswordAtLogon $true -DisplayName "$Lastname $Firstname" -Department $Department -Path $Path -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force)
-        if ($Group)
+        if ($Groups)
         {
-        Add-ADGroupMember -Identity $Group -Members $Username
+            ForEach ($Group in $Groups.Split(","))
+            {
+               Add-ADGroupMember -Identity $Group -Members $Username
+            }
         }
         Write-Host -ForegroundColor Green "Created: $Username"
 
