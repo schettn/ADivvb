@@ -1,4 +1,4 @@
-﻿$CSVFile = "..\CSV\groups.csv"
+﻿$CSVFile = "$PSScriptRoot\..\CSV\groups.csv"
 $Groups = Import-Csv $CSVFile -Delimiter ";"
 
 foreach($Group in $Groups){
@@ -9,7 +9,6 @@ foreach($Group in $Groups){
     $GroupPath = $Group.path
     $GroupMembers = $Group.members
 
-
     #print the OU'sname and the path
     Write-Host -ForegroundColor Blue $GroupName $GroupPath $GroupMembers
 
@@ -18,7 +17,6 @@ foreach($Group in $Groups){
     #add group members 
     if ($GroupMembers){
     foreach($group in $GroupMembers.split(',')){
-         
         Add-ADGroupMember -Identity "$GroupName" -Members $group
         #display confirmation
         Write-Host -ForegroundColor Green "Group $GroupName successfuly create with users: $group"
