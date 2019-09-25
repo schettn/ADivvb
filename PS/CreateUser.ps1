@@ -10,7 +10,7 @@ ForEach ($User in $UserList)
         $Lastname = $User.Lastname
         $Department = $User.Department
         $Path = $User.Path
-        $Group = $User.Group
+        $Groups = $User.Groups
 
         Write-Host -ForegroundColor Yellow "Creating: $Username"
         New-ADUser -Name "$Firstname $Lastname" -SamAccountName $Username -UserPrincipalName "$Username@nwtk.local" -GivenName $Firstname -Surname $Lastname -Enabled $true -ChangePasswordAtLogon $true -DisplayName "$Lastname $Firstname" -Department $Department -Path $Path -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force)
