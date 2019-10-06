@@ -1,4 +1,4 @@
-Username;Password;Firstname;Lastname;Department;Path;Group
+Username;Password;Firstname;Lastname;Department;Path;Groups
 Ehrlicha;W!ndows19;Alexander;Ehrlich;Munich;OU=Marketing,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Marketing
 Huberm;W!ndows19;Maria;Huber;Munich;OU=Marketing,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Marketing
 Maierh;W!ndows19;Hans;Maier;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Sales
