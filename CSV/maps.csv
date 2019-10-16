@@ -1,0 +1,3 @@
+GPOName;DNSDomainName;Target;Letter;SharePath;Label;allDrivesVisibility;thisDriveVisibility;action;persistent
+HomeShareGPO;nwtk.local;OU=Lightbulb,DC=nwtk,DC=local;H;\\FILESHARE.nwtk.local\SharedHomes\Home_20\%username%_20;SharedHomes;SHOW;SHOW;C;1
+MappingGPO;nwtk.local;OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;S;\\FILESHARE.nwtk.local\SharedWorkspaces\Fileshare_20\;SharedWorkSpace;SHOW;SHOW;C;1
