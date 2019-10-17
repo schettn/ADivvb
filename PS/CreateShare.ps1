@@ -9,8 +9,8 @@
         $FullAccess = $Share.FullAccess
         $ChangeAccess = $Share.ChangeAccess
 
-        Write-Host -ForegroundColor Yellow "Creating: $Name $Path $FullAccess $ChangeAccess"
-        New-SmbShare -name $Name -path $Path -FullAccess 'Domänen-Admins' -ChangeAccess 'InternUsers' 
+        Write-Host -ForegroundColor Yellow "Creating: $Name $Path $ChangeAccess"
+        New-SmbShare -name $Name -path $Path -FullAccess $FullAccess -ChangeAccess $ChangeAccess
         Write-Host -ForegroundColor Green "Created: $Name $Path"
     }
 }

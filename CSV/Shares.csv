@@ -1,3 +1,4 @@
 Name;Path;FullAccess;ChangeAccess
-SharedHomes;H:\Lightbulb17;Dom‰nen-Admins;InternUsers
-SharedWorkspaces;S:\Lightbulb17;Dom‰nen-Admins;LightbulbUsers
+SharedHomes;H:\Lightbulb17\Home17\;Dom√§nen-Admins;InternUsers
+SharedWorkspaces;S:\Lightbulb17\FileShare17\;Dom√§nen-Admins;LightbulbUsers
+SharedSubmissions;S:\Lightbulb17\Submissions17\;Dom√§nen-Admins;LightbulbUsers
