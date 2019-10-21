@@ -90,4 +90,14 @@ function Map
         $drivesXml.save($pathToDrivesXML)
     
     }
+    $gptinifilename = "\\$DNSDomainName\Sysvol\$DNSDomainName\Policies\{$GUID}\GPT.ini"
+    $gptini | Out-File $gptinifilename -Encoding utf8
+
+    $gpCMachineExtensionNames = "[{5794DAFD-BE60-433f-88A2-1A31939AC01F}{2EA1A81B-48E5-45E9-8BB7-A6E3AC170006}]"
+    $adgpo = ([adsisearcher]"(&(objectCategory=groupPolicyContainer)(name={$guid}))").FindAll().Item(0)
+    $gpoentry = $adgpo.GetDirectoryEntry()
+    $gpoentry.Properties["gPCMachineExtensionNames"].Value = $gPCMachineExtensionNames
+    $gpoentry.Properties["versionNumber"].Value = "131072"
+    $gpoentry.CommitChanges()
+    
 }
