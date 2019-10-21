@@ -1,6 +1,9 @@
 ﻿try
 {
     $ShareList = Import-Csv -Path "$PSScriptRoot\..\Lightbulb\Shares.csv" -Delimiter ";"
+    
+    #Specify the remote computer
+    $c = New-CimSession -ComputerName Fileshare
 
     ForEach ($Share in $ShareList)
     {
@@ -10,7 +13,7 @@
         $ChangeAccess = $Share.ChangeAccess
 
         Write-Host -ForegroundColor Yellow "Creating: $Name $Path $ChangeAccess"
-        New-SmbShare -name $Name -path $Path -FullAccess $FullAccess -ChangeAccess $ChangeAccess
+        New-SmbShare -name $Name -path $Path -FullAccess $FullAccess -ChangeAccess $ChangeAccess -CimSession $c
         Write-Host -ForegroundColor Green "Created: $Name $Path"
     }
 }
