@@ -12,7 +12,7 @@
         {
             Install-WindowsFeature -Name FS-Resource-Manager -IncludeManagementTools
         }
-        New-FsrmQuota -Path $Path -Description "limit usage to 100MB" -Size 100MB
+	    
         
         $Acl = Get-Acl $Path
         $AccessRule = New-Object system.Security.AccessControl.FileSystemAccessRule("Domänen-Admins", "FullControl", "ContainerInherit, ObjectInherit", "None", "Allow")

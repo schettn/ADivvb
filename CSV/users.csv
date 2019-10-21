@@ -1,17 +1,17 @@
 Username;Password;Firstname;Lastname;Department;Path;Groups
-Ehrlicha;W!ndows19;Alexander;Ehrlich;Munich;OU=Marketing,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Marketing
-Huberm;W!ndows19;Maria;Huber;Munich;OU=Marketing,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Marketing
-Maierh;W!ndows19;Hans;Maier;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Sales
-Stioberw;W!ndows19;Werner;Stiober;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Sales
-Lösigd;W!ndows19;Dieter;Lösig;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Sales
-Sternm;W!ndows19;Marcus;Stern;London;OU=Sales,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Sales
-Kapferera;W!ndows19;Andreas;Kapferer;Munich;OU=CManagement,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;CManagement
-Gutk;W!ndows19;Klara;Gut;Munich;OU=CManagement,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;CManagement
-Heynew;W!ndows19;Wilhelm;Heyne;London;OU=Design,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Design
-Scharnerk;W!ndows19;Klaus;Scharner;London;OU=Design,OU=Intern,OU=Lightbulb,DC=nwtk,DC=local;Design
-Morimotor;W!ndows19;Rand;Morimoto;UK;OU=TSales,OU=Extern,OU=Lightbulb,DC=nwtk,DC=local;TSales
-Barkerc;W!ndows19;Clive;Barker;UK;OU=TSales,OU=Extern,OU=Lightbulb,DC=nwtk,DC=local;TSales
-Abbatea;W!ndows19;Andreas;Abbate;Germany;OU=TSales,OU=Extern,OU=Lightbulb,DC=nwtk,DC=local;TSales
+Ehrlicha;W!ndows19;Alexander;Ehrlich;Munich;OU=Marketing,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;Marketing
+Huberm;W!ndows19;Maria;Huber;Munich;OU=Marketing,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;Marketing
+Maierh;W!ndows19;Hans;Maier;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;Sales
+Stioberw;W!ndows19;Werner;Stiober;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;Sales
+Loesigd;W!ndows19;Dieter;Loesig;Munich;OU=Sales,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;Sales
+Sternm;W!ndows19;Marcus;Stern;London;OU=Sales,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;Sales
+Kapferera;W!ndows19;Andreas;Kapferer;Munich;OU=Corporate Managment,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;CorpManagment
+Gutk;W!ndows19;Klara;Gut;Munich;OU=Corporate Managment,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;CorpManagment
+Heynew;W!ndows19;Wilhelm;Heyne;London;OU=Design,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;Design
+Scharnerk;W!ndows19;Klaus;Scharner;London;OU=Design,OU=Intern,OU=Lightbulb,DC=pinterid,DC=local;Design
+Morimotor;W!ndows19;Rand;Morimoto;UK;OU=Travelling Sales,OU=Extern,OU=Lightbulb,DC=pinterid,DC=local;TravelSales
+Barkerc;W!ndows19;Clive;Barker;UK;OU=Travelling Sales,OU=Extern,OU=Lightbulb,DC=pinterid,DC=local;TravelSales
+Abbatea;W!ndows19;Andreas;Abbate;Germany;OU=Travelling Sales,OU=Extern,OU=Lightbulb,DC=pinterid,DC=local;TravelSales
 
 
 

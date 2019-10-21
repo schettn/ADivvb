@@ -13,7 +13,7 @@
         $Size = $Quota.Size
         $Description = "limit usage to $Size"
 
-        Write-Host -ForegroundColor Yellow "Creating: $Path §Description"
+        Write-Host -ForegroundColor Yellow "Creating: $Path $Description"
         New-FsrmQuota -Path $Path -Description $Description -Size ($Size / 1)
         Write-Host -ForegroundColor Green "Created: $Path $Description"
     }
