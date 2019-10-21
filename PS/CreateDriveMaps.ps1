@@ -1,4 +1,9 @@
 $drives = Import-Csv -Path "$PSScriptRoot\..\csv\maps.csv" -Delimiter ";"
+$gptini = @'
+[General]
+Version=2
+displayName=New Group Policy Object
+'@
 
 function New-Linked-GPO
 {
