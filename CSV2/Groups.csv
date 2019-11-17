@@ -1,0 +1,20 @@
+Name;Path;Members
+ITravSales;OU=Travelling Sales,OU=Gespetto,DC=pinterid,DC=local
+GTravSales;OU=Travelling Sales,OU=Gespetto,DC=pinterid,DC=local
+UKTravSales;OU=Travelling Sales,OU=Gespetto,DC=pinterid,DC=local
+GMarketing;OU=Marketing,OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+ISales;OU=Sales,OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+GSales;OU=Sales,OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+UKSales;OU=Sales,OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+GCorpManagement;OU=Corporate Management,OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+IDesign;OU=Design,OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+Italy;OU=Italy,OU=Countries,OU=Gespetto,DC=pinterid,DC=local;IDesign,ISales,ITravSales
+UK;OU=UK,OU=Countries,OU=Gespetto,DC=pinterid,DC=local;UKSales,UKTravSales
+Germany;OU=Germany,OU=Countries,OU=Gespetto,DC=pinterid,DC=local;GCorpManagement,GSales,GMarketing,GTravSales
+CorpManagement;OU=Corporate Management,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;GCorpManagement
+Design;OU=Design,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;IDesign
+Marketing;OU=Marketing,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;GMarketing
+Sales;OU=Sales,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;ISales,GSales,UKSales
+TravSales;OU=Travelling Sales,OU=Gespetto,DC=pinterid,DC=local;ITravSales,GTravSales,UKTravSales
+InternUsers;OU=Intern,OU=Gespetto,DC=pinterid,DC=local;Sales,Marketing,Design,CorpManagement
+GespettoUsers;OU=Gespetto,DC=pinterid,DC=local;InternUsers,TravSales
