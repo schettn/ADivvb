@@ -1,0 +1,12 @@
+name;path
+Gespetto;DC=pinterid,DC=local
+Intern;OU=Gespetto,DC=pinterid,DC=local
+Countries;OU=Gespetto,DC=pinterid,DC=local
+Travelling Sales;OU=Gespetto,DC=pinterid,DC=local
+Sales;OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+Corporate Management;OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+Marketing;OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+Design;OU=Intern,OU=Gespetto,DC=pinterid,DC=local
+Germany;OU=Countries,OU=Gespetto,DC=pinterid,DC=local
+UK;OU=Countries,OU=Gespetto,DC=pinterid,DC=local
+Italy;OU=Countries,OU=Gespetto,DC=pinterid,DC=local
