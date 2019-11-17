@@ -1,0 +1,19 @@
+Username;Password;Firstname;Lastname;Department;Path;Groups
+ehrlicha;W!ndows19;Alexander;Ehrlich;Munich;OU=Marketing,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;GMarketing
+huberm;W!ndows19;Maria;Huber;Munich;OU=Marketing,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;GMarketing
+maierh;W!ndows19;Hans;Maier;Munich;OU=Sales,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;GSales
+stoiberw;W!ndows19;Werner;Stoiber;Munich;OU=Sales,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;GSales
+loesigd;W!ndows19;Dieter;Loesig;Munich;OU=Sales,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;GSales
+sternm;W!ndows19;Marcus;Stern;London;OU=Sales,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;UKSales
+pantalonem;W!ndows19;Maurizio;Pantalnone;Milano;OU=Sales,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;ISales
+kapferera;W!ndows19;Andreas;Kapferer;Munich;OU=Corporate Management,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;GCorpManagement
+gutk;W!ndows19;Klara;Gut;Munich;OU=Corporate Management,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;GCorpManagement
+carbonaral;W!ndows19;Luigi;Carbonara;Milano;OU=Design,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;IDesign
+mastroanig;W!ndows19;Gespetto;Mastroani;Milano;OU=Design,OU=Intern,OU=Gespetto,DC=pinterid,DC=local;IDesign
+morimotor;W!ndows19;Rand;Morimoto;UK;OU=Travelling Sales,OU=Gespetto,DC=pinterid,DC=local;UKTravSales
+barkerc;W!ndows19;Clive;Barker;UK;OU=Travelling Sales,OU=Gespetto,DC=pinterid,DC=local;UKTravSales
+abbatea;W!ndows19;Andreas;Abbate;Germany;OU=Travelling Sales,OU=Gespetto,DC=pinterid,DC=local;GTravSales
+vegaf;W!ndows19;Franzisko;Vega;Italy;OU=Travelling Sales,OU=Gespetto,DC=pinterid,DC=local;ITravSales
+
+
+
