@@ -1,0 +1,9 @@
+GPOName;DNSDomainName;Target;Letter;SharePath;Label;allDrivesVisibility;thisDriveVisibility;action;persistent
+HomeShareGPO;pinterid.local;OU=Intern,OU=Gespetto,DC=pinterid,DC=local;H;\\10.0.1.10\Homes17\%username%17;Home;SHOW;SHOW;C;1
+DepartmentShareGPO;pinterid.local;OU=Intern,OU=Gespetto,DC=pinterid,DC=local;K;\\10.0.1.10\Departments17\Sales17;Sales;SHOW;SHOW;C;1
+DepartmentShareGPO;pinterid.local;OU=Intern,OU=Gespetto,DC=pinterid,DC=local;K;\\10.0.1.10\Departments17\Marketing17;Marketing;SHOW;SHOW;C;1
+DepartmentShareGPO;pinterid.local;OU=Intern,OU=Gespetto,DC=pinterid,DC=local;K;\\10.0.1.10\Departments17\CorpManagement17;CorpManagement;SHOW;SHOW;C;1
+DepartmentShareGPO;pinterid.local;OU=Intern,OU=Gespetto,DC=pinterid,DC=local;K;\\10.0.1.10\Departments17\Design17;Design;SHOW;SHOW;C;1
+CountryShareGPO;pinterid.local;OU=Intern,OU=Gespetto,DC=pinterid,DC=local;L;\\10.0.1.10\Countries17\Germany17;Germany;SHOW;SHOW;C;1
+CountryShareGPO;pinterid.local;OU=Intern,OU=Gespetto,DC=pinterid,DC=local;L;\\10.0.1.10\Countries17\UK17;UK;SHOW;SHOW;C;1
+CountryShareGPO;pinterid.local;OU=Intern,OU=Gespetto,DC=pinterid,DC=local;L;\\10.0.1.10\Countries17\Italy17;Italy;SHOW;SHOW;C;1
